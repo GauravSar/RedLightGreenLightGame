@@ -1,0 +1,57 @@
+.container{
+    height: 100vh;
+    background-color: #00DDFF;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 15px;
+}
+.green{
+    background-color: green;
+
+}
+.red{
+    background-color: red;
+}
+.start-button{
+    color: black;
+    background-color: #5adbb5;
+    font-size: 15px;
+    font-family: 'Roboto';
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+}
+.clicks{
+    color: #dd7973;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+.result-text{
+    color: #120c83;
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-weight: 600;
+
+}
+.clicks-count{
+    color: black;
+}
+.user-name{
+    color: black;
+}
+.user-mobileno{
+    color: black;
+}
+
+.user-difficulty-level{
+    color: black;
+}

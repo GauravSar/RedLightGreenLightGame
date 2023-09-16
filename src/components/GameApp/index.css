@@ -1,0 +1,111 @@
+.main-comtainer{
+    height: 100vh;
+    background-color: #00DDFF;
+    display: flex;
+    flex-direction: column;
+}
+.game-app-comtainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app-heading{
+    color: #ff1d58;
+    font-size: 40px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.inputfields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.name{
+    color: black;
+    font-size: 23px;
+    font-family: 'Roboto';
+    margin-bottom: 4px;
+}
+.name-input{
+    color: black;
+    font-size: 14px;
+    font-family: 'Roboto';
+    height: 26px;
+    width: 250px;
+    outline: none;
+    border: none;
+}
+.email{
+    color: black;
+    font-size: 23px;
+    font-family: 'Roboto';
+    margin-bottom: 4px;
+}
+.email-input{
+    color: black;
+    font-size: 14px;
+    font-family: 'Roboto';
+    height: 26px;
+    width: 250px;
+    outline: none;
+    border: none;
+}
+.mobileno{
+    color: black;
+    font-size: 23px;
+    font-family: 'Roboto';
+    margin-bottom: 4px;
+}
+.mobileno-input{
+    color: black;
+    font-size: 14px;
+    font-family: 'Roboto';
+    height: 26px;
+    width: 250px;
+    outline: none;
+    border: none;
+}
+.label{
+    color: black;
+    font-size: 23px;
+    font-family: 'Roboto';
+    margin-right: 5px;
+}
+.levels-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.levels{
+    width: 100px;
+    height: 26px;
+}
+.option{
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+
+.button{
+    color: white;
+    background-color: #dd7973;
+    font-size: 15px;
+    font-family: 'Roboto';
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    border: none;
+    align-self: center;
+}
+.form{
+    background-color: beige;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 10px;
+}
