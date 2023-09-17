@@ -63,7 +63,7 @@ class GreenLightRedLight extends Component {
             clicks: prevState.clicks + 1,
           }),
           () => {
-            if (clicks >= this.props.targetClicks) {
+            if (clicks >= this.props.targetClicks - 1) {
               this.endGame(true);
             }
           }
